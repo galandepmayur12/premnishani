@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light theme (default) - inspired by logo cream circle */
+:root {
+  --primary: #d81b60;
+  --primary-hover: #c2185b;
+  --secondary: #1a1a1a;
+  --accent: #F5F3EE;
+  --background: #F5F3EE;
+  --foreground: #1a1a1a;
+  --muted: #6b6b6b;
+  --border: rgba(26, 26, 26, 0.12);
+}
+
+/* Dark theme - inspired by logo outer background */
+.dark {
+  --primary: #ec407a;
+  --primary-hover: #f06292;
+  --secondary: #F5F3EE;
+  --accent: #1a1a1a;
+  --background: #121212;
+  --foreground: #F5F3EE;
+  --muted: #a0a0a0;
+  --border: rgba(245, 243, 238, 0.15);
+}
+
+body {
+  font-family: var(--font-inter), sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.font-playfair {
+  font-family: var(--font-playfair), serif;
+}
+
+/* Ensure images and cards respect theme */
+.dark img {
+  @apply opacity-95;
+}
