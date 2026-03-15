@@ -135,7 +135,7 @@ export default function HomePage() {
       <section className="py-16 bg-secondary text-accent">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h2 className="font-playfair text-3xl text-primary mb-8">Customer Reviews</h2>
-          <p className="opacity-90 max-w-2xl mx-auto">“Beautiful packaging and the personalization was perfect. Will order again!” — Priya M.</p>
+          <p className="opacity-90 max-w-2xl mx-auto">“Beautiful packaging and the personalization was perfect. Will order again!” — Mayur G.</p>
         </div>
       </section>
 
